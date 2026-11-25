@@ -5,9 +5,7 @@
 
 ## Findings
 
-| # | Severity | File:Line | Rule | Suggested action |
-|---|----------|-----------|------|------------------|
-| 1 | blocker  | src/...:42 | changed behavior has no test | add a test that fails without the change |
+{The table and the blocks in the format of the `findings` skill. The level is the severity: blocker, major, minor or nit.}
 
 ## What was checked
 - [ ] Ownership and module boundaries
@@ -19,4 +17,4 @@
 - [ ] The hotspot rules, if the diff touches a hotspot
 
 ## Debt spin-offs that do not block this PR
-- {problem on an untouched line}. Candidate item for tech-debt-triage. Evidence: file:line
+{The table and the blocks in the format of the `findings` skill, with numbers that continue after the findings above. The level is the severity that the problem would have in a review of its own. Each one is a candidate item for tech-debt-triage.}

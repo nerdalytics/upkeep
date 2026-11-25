@@ -10,9 +10,11 @@
 
 ## Findings
 
-| # | ISO 25010 sub-characteristic | Current state (value and evidence) | Target | Gap | Priority hint |
-|---|------------------------------|------------------------------------|--------|-----|---------------|
-| 1 | Modifiability | {file} has {n} commits and {n} lines, from `hotspots.py` output | {target the team defined} | {what falls short} | {high, medium or low, and why} |
+{The table and the blocks in the format of the `findings` skill. The level is the priority hint: high, medium or low. "Evidence" holds the current state, which is the measured value and the command that produced it. Each block has these three added fields.}
+
+- **Sub-characteristic:** {the ISO 25010 sub-characteristic}
+- **Target:** {the target the team defined, or "none defined"}
+- **Gap:** {what falls short of the target}
 
 ## Evidence appendix
 

@@ -1,7 +1,7 @@
 # upkeep
 
 `upkeep` is a Claude Code plugin that helps you keep a codebase easy
-to change. It can measure a repository, review changes, add checks to CI, rank
+to change. It can measure a repository, review changes, add automated checks, rank
 technical debt, guide changes to untested code, plan the replacement of a
 legacy system, and record architecture decisions.
 

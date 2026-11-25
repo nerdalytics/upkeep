@@ -15,7 +15,7 @@ Progress:
 - [ ] Step 2. Get the diff from the PR, with `git diff --staged`, or with `git diff -M <base>...HEAD`. The base is the PR's target branch. Without a PR, it is the branch that this project merges into. Take it from `git symbolic-ref --short refs/remotes/<remote>/HEAD` for the remote that `git remote` lists, and ask the user when that gives no single answer. List the touched files and the module that owns each one.
 - [ ] Step 3. Apply the checklist below to changed lines only.
 - [ ] Step 4. If the diff touches a module that is flagged as a hotspot, load `references/hotspot-rules.md` and apply its extra rules.
-- [ ] Step 5. Write the report from `assets/review-report-template.md` to the place `maintainability-records` gives for review reports, with the branch and the date in the file name. Then reply with the path, the verdict, and the findings table.
+- [ ] Step 5. Load this plugin's `findings` skill, `upkeep:findings`, which gives the one format for the list of findings. Then write the report from `assets/review-report-template.md` to the place `maintainability-records` gives for review reports, with the branch and the date in the file name. Then reply with the path, the verdict, and the findings table.
 
 ## Review checklist
 
@@ -38,7 +38,7 @@ Use judgment about emphasis. A diff that mostly renames things needs different a
 
 ## Output
 
-Use `assets/review-report-template.md`. The verdict is approve, approve-with-nits, or request-changes. List debt spin-offs in their own section so that they are not lost after the merge, and hand them to the tech-debt-triage skill.
+Use `assets/review-report-template.md`, with the findings in the format of the `findings` skill. The verdict is approve, approve-with-nits, or request-changes. List debt spin-offs in their own section so that they are not lost after the merge, and hand them to the tech-debt-triage skill.
 
 ## Gotchas
 

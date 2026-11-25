@@ -5,7 +5,7 @@ Load this file when the repo already has violations, as in legacy code, an inher
 ## Policy
 
 1. **Freeze a baseline.** Snapshot today's violations into a committed JSON file. The team named in the gate config owns the baseline.
-2. **Block only additions.** CI fails when a violation appears that is not in the baseline. Existing violations pass.
+2. **Block only additions.** The check fails when a violation appears that is not in the baseline. Existing violations pass.
 3. **Shrink the baseline and never grow it.** When violations are fixed, take a new snapshot so that the baseline gets smaller. Adding entries to a baseline needs the same review as any policy change. Never add entries only to make CI green.
 4. **Track the trend.** The baseline count is a debt metric, so report it over time. A growing baseline means that people are bypassing the check.
 

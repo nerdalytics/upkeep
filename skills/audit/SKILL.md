@@ -16,7 +16,7 @@ Progress:
 - [ ] Step 3. Find duplicated blocks with `python3 ${CLAUDE_SKILL_DIR}/scripts/dupblocks.py <repo-root>`.
 - [ ] Step 4. For complexity and coupling numbers, run the commands that `maintainability-checks` lists, and record each exact command in the report. Where it lists none for a measure, write in the report that the measure was not taken. Do not estimate.
 - [ ] Step 5. Map the findings to ISO 25010 sub-characteristics with `references/iso25010-mapping.md`.
-- [ ] Step 6. Write the gap report from `assets/gap-report-template.md`, with the current state, target, gap and evidence for each finding. Save it where `maintainability-records` puts audit reports, with the date in the file name, and commit it only if that skill says audit reports are committed. Then reply with the path and the summary paragraph.
+- [ ] Step 6. Load this plugin's `findings` skill, `upkeep:findings`, which gives the one format for the list of findings. Then write the gap report from `assets/gap-report-template.md`, with the current state, target, gap and evidence for each finding. Save it where `maintainability-records` puts audit reports, with the date in the file name, and commit it only if that skill says audit reports are committed. Then reply with the path and the summary paragraph.
 
 ## Interpretation
 

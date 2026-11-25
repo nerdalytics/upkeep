@@ -7,8 +7,8 @@
   "plugins": [
     {
       "name": "upkeep",
-      "description": "Skills that audit a repository, review diffs, add CI gates, triage technical debt, change legacy code behind tests, plan strangler migrations, and record architecture decisions.",
-      "version": "2026.11.1",
+      "description": "Skills that audit a repository, review diffs, add automated gates, triage technical debt, change legacy code behind tests, plan strangler migrations, and record architecture decisions.",
+      "version": "2026.11.2",
       "source": "./",
       "keywords": [
         "maintainability",
