@@ -1,0 +1,17 @@
+{
+  "name": "upkeep",
+  "version": "2026.11.1",
+  "description": "Skills that audit a repository, review diffs, add CI gates, triage technical debt, change legacy code behind tests, plan strangler migrations, and record architecture decisions.",
+  "author": {
+    "name": "nerdalytics"
+  },
+  "repository": "https://github.com/nerdalytics/upkeep",
+  "license": "MIT",
+  "keywords": [
+    "maintainability",
+    "technical-debt",
+    "code-review",
+    "legacy-code",
+    "architecture"
+  ]
+}

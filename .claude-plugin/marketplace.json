@@ -1,0 +1,22 @@
+{
+  "name": "upkeep",
+  "description": "Marketplace for the upkeep plugin.",
+  "owner": {
+    "name": "nerdalytics"
+  },
+  "plugins": [
+    {
+      "name": "upkeep",
+      "description": "Skills that audit a repository, review diffs, add CI gates, triage technical debt, change legacy code behind tests, plan strangler migrations, and record architecture decisions.",
+      "version": "2026.11.1",
+      "source": "./",
+      "keywords": [
+        "maintainability",
+        "technical-debt",
+        "code-review",
+        "legacy-code",
+        "architecture"
+      ]
+    }
+  ]
+}
